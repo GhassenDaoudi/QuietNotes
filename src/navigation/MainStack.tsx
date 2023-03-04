@@ -3,8 +3,9 @@ import React from 'react';
 import AllNotes from '../features/AllNotes/AllNotes';
 import Note from '../features/Note/Note';
 import Settings from '../features/Settings/Settings';
+import {MainStackParamList} from './types';
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<MainStackParamList>();
 
 export default () => {
   return (
