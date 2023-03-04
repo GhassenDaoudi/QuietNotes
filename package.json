@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ack": "npx react-native-oss-license --only-direct-dependency --dev --format license-tools-plugin --json > ./src/assets/acknowledgement.json"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.6",
