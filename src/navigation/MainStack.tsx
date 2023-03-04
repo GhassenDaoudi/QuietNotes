@@ -1,8 +1,8 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
-import AllNotes from '../features/AllNotes/AllNotes';
-import Note from '../features/Note/Note';
-import Settings from '../features/Settings/Settings';
+import AllNotes from '../screens/AllNotes/AllNotes';
+import Note from '../screens/Note/Note';
+import Settings from '../screens/Settings/Settings';
 import {MainStackParamList} from './types';
 
 const Stack = createNativeStackNavigator<MainStackParamList>();
