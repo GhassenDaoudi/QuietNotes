@@ -1,13 +1,13 @@
-import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
+import AppContainer from './src/components/AppContainer';
 import MainStack from './src/navigation/MainStack';
 import useNotes from './src/store/useNotes';
 //useNotes.getState().clear();
 useNotes.getState().load();
 export default () => {
   return (
-    <NavigationContainer>
+    <AppContainer>
       <MainStack />
-    </NavigationContainer>
+    </AppContainer>
   );
 };
